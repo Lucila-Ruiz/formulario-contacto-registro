@@ -1,0 +1,47 @@
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Maqueta Formulario | Lucila Ruiz</title>
+        <link rel="stylesheet" href="estiloFormulario.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Splash&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h2></h2>
+        
+        <fieldset>
+        <legend>Comencemos!</legend>
+        <form>
+            <label for="nombre">Ingrese su nombre:</label> 
+            <br/><!--for tiene el mismo id del input name, ya sabe que es un label para nombre-->
+            <input type="text" name="nombre" id="nombre" placeholder="Ej.: Gabriela" required/> <!--required para que tenga que llenar si o si ese campo-->
+            <br/>
+            <label for="apellido">Ingrese su apellido:</label>
+            <br/>
+            <input type="text" id="apellido" placeholder="Ej.: González" required/>
+            <br/>
+            <label for="mail">Ingrese su correo electrónico:</label>
+            <br/>
+            <input type="email" id="mail" placeholder="Ej.: gabrielagonzalez@email.com" required/>
+            <br/>
+            <label for="telefono">Ingrese su teléfono:</label>
+            <br/>
+            <input type="tel" id="telefono" placeholder="Ej.: 111 222 3333"/>
+            <br/>
+            <label for="fecha">Ingrese su fecha de nacimiento:</label>
+            <br/>
+            <input type="date" id="fecha"/>
+            <br/>
+            <label>Comentarios</label>
+            <br/>
+            <textarea></textarea><!--hasta 256 caracteres contando espacios-->
+            <br/>
+            <input type="reset" value ="borrar todo" class="boton"/> <!--borra todo lo que uno escribió en los campos de texto, por defecto aparece "limpiar"-->
+            <input type="submit" value="Enviar" class="boton"/>
+        </form>
+        </fieldset>
+    </body>
+</html>

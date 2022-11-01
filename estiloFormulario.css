@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(./img/pexels-engin-akyurt-11498953.jpg);
+    background-size: contain;
+    
+}
+
+h2{
+    background-image: url(./img/h2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left: 490px;
+}
+
+legend{
+    font-weight: bold;
+    color: #fff;
+}
+
+fieldset{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,92,45,1) 35%, rgba(255,197,0,1) 100%);
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    border:5px double #000;
+    border-radius: 10px;
+}
+
+label{
+    width:130px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+   
+}
+
+input:focus, textarea:focus{  /*focus es como hover pero que cambia de propiedad cuando uno se quede posicionado en el elemnto*/
+    background-color: rgb(255, 212, 20);
+}
+
+.boton{
+    width:150px;
+    height: 30px;
+    background-color:rgb(252, 224, 102);
+    color:#000;
+    margin: 5px;
+}
+
+.boton:hover{
+    background-color:#000;
+    color: rgb(255, 212, 20);
+}
